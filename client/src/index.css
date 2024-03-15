@@ -11,30 +11,33 @@ font-family: 'Playfair Display', serif;
 font-family: 'Josefin Sans', sans-serif;   font-size:300
 font-family: 'Lora', serif;  font-size:400----italic*/
 
+/* .container-fluid{
+  background-color:#d7cec7;
+} */
 /*NAV-BAR CSS*/
 .navbar{
-  background-color: #4444;
-  position: sticky;
+  color:#081c15;
+background-color: #081c15;
   top:0;
-  font-family: 'Lora', serif;
+  font-family: italics;
+  text-decoration: none;
   font-size: 17px;
   line-height: 26px;
-  text-transform: uppercase;
-  box-shadow: 0  8px 6px -6px gray;
-  --webkit-box-shadow: 0  8px 6px -6px gray;
-  border-bottom: 0.3px solid gray !important;
+  box-shadow: 0  8px 6px -6px #081c15;
+  --webkit-box-shadow: 0  8px 6px -6px #081c15;
+  border-bottom: 0.3px solid #081c15 !important;
 }
 
 .navbar a:hover{
-  color:teal;
-border-bottom: 1px solid teal;
+  color:#95D5B2;
+border-bottom: 1px solid #95D5B2;
+text-decoration: none;
 }
-.container-fluid{
-  background-color:#4444;}
+
 
 .smallbr{
   font-size: 12px;
-  color:teal;
+  color:#565656;
 }
 .nav-link{
   font-weight: 550 !important;
@@ -43,28 +46,43 @@ border-bottom: 1px solid teal;
 
 .navbar-brand{
   font-weight: 700;
-  font-family: 'Lora', serif;
- 
+  font-family: italics;
+color:#081c15;
+}
+
+.ff{
+  font-family: italics;
 }
 
 .active{
   border-bottom: 2px solid black;
 }
-
+.sc{
+  background: #081c15;
+  color:#95D5B2;
+}
+.sc:hover{
+  background: #95D5B2;
+  color:#081c15 ;
+}
+.fw{
+  font-weight: bold;
+}
 /*================================
 =============footer=============*/
 
 .footer{
-  color:black;
+  color:#d7cec7;
+  font-family:italics;
   padding: 25px;
-  background:teal;
+  background:#081c15;
   border: 2px 2px 2px 2px;
   border-color: black;
 }
 
 .footer a{
   text-decoration: none;
-  color:white;
+  color:#d7cec7;
   padding: 10px;
 }
 
@@ -105,4 +123,22 @@ border-bottom: 1px solid #ffefba;
   color:solid black;
 }
 
+.product-link{
+  text-decoration: none;
+  color: black !important;
 
+}
+.product-img{
+  width:auto;
+  height: 400px;
+}
+
+.proddetails{
+  font-family: italics;
+}
+
+
+/* ==========Private Policy ============ */
+.poilcy h1{
+  background-color: #081c15;
+}
